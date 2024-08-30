@@ -6,7 +6,7 @@ function atualizarRelogio() {
 
     document.getElementById('horas').textContent = horas;
     document.getElementById('minutos').textContent = minutos;
-    document.getElementById('secundos').textContent = segundos;
+    document.getElementById('segundos').textContent = segundos;
 }
 
 setInterval(atualizarRelogio, 1000);
